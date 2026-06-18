@@ -1,16 +1,13 @@
-﻿# website-upload-20260530-164901-068
+# 日韩高分影片
 
-Batch 68 of 43. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-671 | project-bolt-sb1-bvybck5e - 副本-chatgpt (1) (moved 3).zip |
-| version-672 | project-bolt-sb1-bvybck5e-chatgpt (1) (moved 2).zip |
-| version-673 | project-bolt-sb1-bvybck5e-chatgpt (2).zip |
-| version-674 | project-bolt-sb1-bwvunhky - 副本-chatgpt (1) (moved 2).zip |
-| version-675 | project-bolt-sb1-bwvunhky-chatgpt (1) (moved 3).zip |
-| version-676 | project-bolt-sb1-bwvunhky-chatgpt (2).zip |
-| version-677 | project-bolt-sb1-byuujn69 - 副本-chatgpt (1) (moved 3).zip |
-| version-678 | project-bolt-sb1-byuujn69-chatgpt (1) (moved 2).zip |
-| version-679 | project-bolt-sb1-byuujn69-chatgpt (2).zip |
-| version-680 | project-bolt-sb1-c3j4mdnb - 副本-chatgpt (1) (moved 2).zip |
+- 首页：index.html
+- 分类总览：categories.html
+- 排行榜：ranking.html
+- 搜索：search.html
+- 详情页数量：2000
+- 图片引用：顶级目录 1.jpg 到 150.jpg 循环使用
+- 播放：详情页播放器点击后加载 m3u8 并初始化 HLS
+
+如需预览 HLS 播放，建议使用本地静态服务器或部署到网站空间后访问。
